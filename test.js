@@ -52,4 +52,9 @@ describe('Tick', function() {
       done();
     }, 1000);
   });
+
+  it('should have a default tick object', function() {
+    expect(Tick.tick).to.be.an.instanceof(Tick);
+    expect(Tick.tick).to.equal(Tick.tick);
+  });
 });

@@ -5,6 +5,10 @@ const EventEmitter = require('eventemitter2').EventEmitter2
 let tick = null;
 
 module.exports = class Tick extends EventEmitter {
+  static get tick() {
+    return tick || (tick = new Tick)
+  }
+
   get requestAnimationFrame() {
     return this._raf
   }
