@@ -1,6 +1,6 @@
 {
   "name": "ticktack",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple EventEmitter wrapper of requestAnimationFrame/setTimeout.",
   "main": "index.js",
   "scripts": {
