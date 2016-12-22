@@ -11,12 +11,12 @@ npm install ticktack
 ## Example
 
 ```javascript
-var Tick = require('ticktack');
-var tick = new Tick();
+const Tick = require('ticktack')
+const tick = new Tick
 
-tick.on('tick', function(tick, date) {
-  console.log('tick: ' + date);
-});
+tick.on('tick', (tick, date) => {
+  console.log(`tick: ${date}`)
+})
 ```
 
 ## License
