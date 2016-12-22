@@ -9,7 +9,7 @@
   "author": "Taro Hanamura <m@hanamurataro.com> (http://hanamurataro.com/)",
   "license": "MIT",
   "dependencies": {
-    "eventemitter2": "0.4.14"
+    "eventemitter2": "^2.2.1"
   },
   "devDependencies": {
     "chai": "^3.5.0",
